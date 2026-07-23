@@ -1,0 +1,22 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: count-org-loc
+  title: count-org-loc
+  description: Count total lines of code across a GitHub organization
+  annotations:
+    github.com/project-slug: ITDeptUtahCountyGovernment/count-org-loc
+    backstage.io/source-location: url:https://github.com/ITDeptUtahCountyGovernment/count-org-loc/
+    itdept.dev/language: Ruby
+    itdept.dev/lines-of-code: "52"
+    itdept.dev/tech-stack: github-actions
+    itdept.dev/correct-naming: "false"
+    itdept.dev/password-mgmt: none
+    itdept.dev/created-at: 2025-03-05T17:02:44Z
+    itdept.dev/catalog-last-updated: 2026-07-23T23:56:03.844Z
+    itdept.dev/linting-enforced: "false"
+    itdept.dev/ci-tested: "false"
+spec:
+  type: service
+  owner: group:default/devops-team
+  lifecycle: production
