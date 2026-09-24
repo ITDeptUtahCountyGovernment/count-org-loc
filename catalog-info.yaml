@@ -7,17 +7,20 @@ metadata:
   annotations:
     github.com/project-slug: ITDeptUtahCountyGovernment/count-org-loc
     backstage.io/source-location: url:https://github.com/ITDeptUtahCountyGovernment/count-org-loc/
-    itdept.dev/language: Ruby
-    itdept.dev/lines-of-code: "52"
+    itdept.dev/language: YAML
+    itdept.dev/lines-of-code: "132"
+    itdept.dev/other-languages: Ruby
     itdept.dev/tech-stack: github-actions
     itdept.dev/correct-naming: "false"
     itdept.dev/password-mgmt: none
+    itdept.dev/github-repo: "true"
     itdept.dev/created-at: 2025-03-05T17:02:44Z
-    itdept.dev/catalog-last-updated: 2026-07-23T23:56:03.844Z
+    itdept.dev/catalog-last-updated: 2026-09-24T00:42:45.620Z
     itdept.dev/linting-enforced: "false"
     itdept.dev/ci-tested: "false"
+    itdept.dev/rad-workflow-adopted: "true"
     itdept.dev/REMOVE-THIS-ANNOTATION: "true"
 spec:
-  type: service
+  type: config
   owner: group:default/devops-team
   lifecycle: production
